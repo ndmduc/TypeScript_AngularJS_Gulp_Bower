@@ -39,3 +39,4 @@ var app;
         domain.Post = Post;
     })(domain = app.domain || (app.domain = {}));
 })(app || (app = {}));
+//# sourceMappingURL=Post.js.map

@@ -23,3 +23,4 @@ var app;
     var mainApp = angular.module('chsakellBlogApp', ['ngRoute']);
     mainApp.config(Config);
 })(app || (app = {}));
+//# sourceMappingURL=app.js.map
