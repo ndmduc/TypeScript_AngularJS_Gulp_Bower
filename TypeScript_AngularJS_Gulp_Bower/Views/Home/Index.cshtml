@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewBag.Title = "Index";
     Layout = null;
 }
@@ -6,25 +6,39 @@
 <html ng-app="chsakellBlogApp">
 <head>
     <meta name="viewport" content="width=device-width" />
-    <link href="~/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
-    <link href="~/Styles/site.css" rel="stylesheet" />
-
+    @*<link href="~/bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/Styles/site.css" rel="stylesheet" />*@
     <!-- styles:css -->
+    <link rel="stylesheet" href="/dist/css/appStyles.css">
     <!-- endinject -->
 
-    <script src="~/bower_components/jquery/dist/jquery.js"></script>
+
+    @*<script src="~/bower_components/jquery/dist/jquery.js"></script>
     <script src="~/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <script src="~/bower_components/angular/angular.js"></script>
-    <script src="~/bower_components/angular-route/angular-route.js"></script>
+    <script src="~/bower_components/angular-route/angular-route.js"></script>*@
+    <!-- vendors:js -->
+    <script src="/dist/vendors/vendors.js"></script>
+    <!-- endinject -->
 
-    <script src="~/app/app.js"></script>
+
+
+    <!-- domain:js -->
+    <script src="/dist/spa/domain.js"></script>
+    <!-- endinject -->
+
+    <!-- app:js -->
+    <script src="/dist/spa/app.js"></script>
+    <!-- endinject -->
+
+    @*<script src="~/app/app.js"></script>
     <script src="~/app/domain/IEntity.js"></script>
     <script src="~/app/domain/Post.js"></script>
     <script src="~/app/common/services/constantService.js"></script>
     <script src="~/app/common/services/dataService.js"></script>
     <script src="~/app/posts/postAddCtrl.js"></script>
     <script src="~/app/posts/postEditCtrl.js"></script>
-    <script src="~/app/posts/postsCtrl.js"></script>
+    <script src="~/app/posts/postsCtrl.js"></script>*@
 </head>
 <body>
     <div id="wrap">
@@ -67,6 +81,8 @@
             </h4>
         </div>
     </footer>
+
+   
 </body>
 </html>
 
